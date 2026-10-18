@@ -6,6 +6,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Retro Rampage: a 2D pixel-art top-down shooter written in plain HTML5 Canvas and vanilla JavaScript. It has no dependencies, no package.json, no build step, no linter and no test suite.
 
+## Git workflow
+
+Commit and push regularly as you work, so no progress is ever lost:
+
+- Commit each logical change as soon as it works, without waiting to be asked. Keep commits small and focused.
+- Write clean commit messages: a short imperative subject line (e.g. "Add spitter enemy type") and, when useful, a brief body explaining why.
+- Push to GitHub (`origin`, https://github.com/arju7012/ClaudeCodeTest, branch `main`) after each commit.
+- Never force-push, rewrite history or delete branches without asking first.
+
 ## Running and checking
 
 - **Play:** open `index.html` directly in a browser (`file://` works; no server needed).
